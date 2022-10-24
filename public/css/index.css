@@ -1,0 +1,153 @@
+body{
+    background-color: #f0f3f9;
+    margin: 02% 2% 0% 02%;
+    padding-top: 10px;
+}
+
+ /* newsbar */
+   
+.newsbar{
+    border-radius: 20px 20px 20px 20px;
+    color: whitesmoke;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0e0e0e;
+    margin-top: 50px;
+    padding: 10px;
+    padding-top: 10%;
+    box-shadow: 1px 1px 10px 1px rgba(114, 114, 114, 0.719);
+}
+.heading{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    letter-spacing: -1px;
+    font-weight: 800;
+    height: 10px;
+    
+}
+.newsbar p{
+    margin-top: 2px;
+    margin-left: 10px;
+    letter-spacing: -1px;
+}
+.newsbar button{
+    margin-top: 10px;
+    margin-left: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: #2088ff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 39px;
+    width: 90px;
+    border-radius: 7px;
+
+}
+.newsbar button:hover{
+    background-color: #2088ffdb;
+    cursor: pointer;
+
+}
+
+
+
+
+
+/* Category Top */
+.top{
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(21, 242, 168);
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.line1{
+    height: 7px;
+    width: 80px;
+    margin-top: 1px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    background-color: #0e0e0e;
+    box-shadow: 4px 3px 0px 0px #dfe1e3;
+    border-radius: 2px;
+    border: solid;
+}
+
+
+
+.crypto{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    min-height: 200px;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+    box-shadow: 0px -3px 0px 0px #0077ed;
+    padding: 10% 2% 0% 2%;
+}
+
+/* currency [ Coins Image and Price ] */
+.currency{
+    display: flex;
+    justify-content: left;
+    height: 50px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #1e5555;
+    background-image: linear-gradient(225deg, #0f1111 0%, #0e0e0e 50%, #24b68509 100%);
+    
+}
+.currency:hover{
+    transition: 200ms;
+    background-color: rgba(0, 0, 0, 0.763);
+
+}
+.logo{
+    height: 100%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0%;
+}
+.name h2{
+    margin-top: 15px;
+    margin-left: 5px;
+    font-size: 22px;
+}
+.name p{
+    margin-top: -20px;
+    margin-left: 6px;
+    font-size: 12px;
+}
+
+.price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: whitesmoke;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: right;
+}
+.price h3{
+    color: rgb(142, 255, 90);
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.price p{
+margin-right: 1px;
+font-size: 23px;
+margin-top: 12px;
+color: rgba(245, 245, 245, 0.845);
+}
